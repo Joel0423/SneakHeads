@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'Modern';
+  src: url('./assets/ModernWarfare.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Bebas';
+  src: url('./assets/BebasNeue-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Nunito';
+  src: url('./assets/Nunito-Variable.ttf') format('truetype');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Base spacing values for mobile */
+:root {
+  --spacing-xs: 8px;
+  --spacing-sm: 12px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-xxl: 40px;
+}
+
+/* Tablet spacing values */
+@media (min-width: 768px) {
+  :root {
+    --spacing-xs: 10px;
+    --spacing-sm: 14px;
+    --spacing-md: 20px;
+    --spacing-lg: 28px;
+    --spacing-xl: 36px;
+    --spacing-xxl: 48px;
+  }
+}
+
+/* Desktop spacing values */
+@media (min-width: 1024px) {
+  :root {
+    --spacing-xs: 12px;
+    --spacing-sm: 16px;
+    --spacing-md: 24px;
+    --spacing-lg: 32px;
+    --spacing-xl: 40px;
+    --spacing-xxl: 56px;
+  }
+}

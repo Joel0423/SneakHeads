@@ -1,0 +1,154 @@
+/* Overall container and centering */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    background-color: #e4ebf0;
+    color: #4a4b4d;
+}
+
+/* Form wrapper */
+.form-wrapper {
+    background-color: #fff;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+/* Toggle buttons for switching between forms */
+.form-toggle {
+    display: flex;
+    justify-content: space-around;
+
+    margin-bottom: 20px;
+}
+
+.toggle-btn {
+    padding: 10px 20px;
+    background-color: #e0e0e0;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.toggle-btn.active {
+    background-color: #4a4b4d;
+    color: white;
+    box-shadow: 0px 4px 15px rgba(62, 62, 63, 0.5);
+    transform: scale(1.05);
+}
+
+.toggle-btn:hover {
+    color: white;
+    background-color: #2a2e33;
+}
+
+/* Form elements */
+.signupForm .loginForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.n-input-group {
+
+    margin-bottom: 15px;
+    text-align: left;
+    width: 50%;
+}
+
+.n-input-group input {
+    width: 95%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group input,
+.input-group textarea {
+    width: 95%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+}
+
+.radio-group {
+    display: flex;
+    justify-content: start;
+}
+
+.radio-group input {
+    margin-right: 5px;
+    margin-left: 20px;
+    width: 8%;
+}
+
+textarea {
+    height: 100px;
+    resize: none;
+}
+
+.submit-btn {
+    padding: 10px 20px;
+    background-color: #47494b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(58, 59, 61, 0.5);
+    font-size: 16px;
+}
+
+.submit-btn:hover {
+    background-color: #22272e;
+    color: white;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 4px 10px rgba(53, 54, 54, 0.5);
+}
+
+/* Validation styles */
+.valid {
+    border: 2px solid green !important;
+}
+
+.invalid {
+    border: 2px solid red !important;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.name-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-group .n-input-group input {
+    width: 80%;
+
+}

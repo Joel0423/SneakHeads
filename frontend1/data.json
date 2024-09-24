@@ -1,0 +1,9 @@
+[
+    {
+        "name": "Nike Air Zoom Pegasus 27",
+        "price": 180,
+        "image": "https://example.com/images/nike-air-zoom-pegasus-27.jpg",
+        "description": "The Nike Air Zoom Pegasus 27 is a versatile and stylish running shoe that combines the comfort and agility of the Zoom with the safety and durability of the Air Zoom.",
+        "type": ["mens", "new arrival"]
+    }
+]
